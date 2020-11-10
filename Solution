@@ -1,0 +1,16 @@
+function myMnemonic (word1, word2, word3, word4){
+  
+  if (word2 == undefined){
+    let word = word1.charAt(0);
+    return word;
+  }  else if (word3 == undefined){
+    let word = word1.charAt(0) + word2.charAt(0);
+    return word;
+  } else if (word4 == undefined){
+    let word = word1.charAt(0) + word2.charAt(0) + word3.charAt(0);
+    return word;    
+  }  else{ 
+    let word = word1.charAt(0) + word2.charAt(0) + word3.charAt(0) + word4.charAt(0);
+    return word;       
+   }
+  }
